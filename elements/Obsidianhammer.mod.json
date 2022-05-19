@@ -1,0 +1,36 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "obsidian_hammer",
+    "customModelName": "Normal",
+    "name": "obsidian hammer",
+    "specialInfo": [
+      "Break blocks in a 3×3"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 40,
+    "efficiency": 40.0,
+    "attackSpeed": 1.0,
+    "enchantability": 40,
+    "damageVsEntity": 1.0,
+    "usageCount": 3500,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "CUSTOM:BlackOIngot"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "IronhammerBlockDestroyedWithTool"
+    }
+  }
+}

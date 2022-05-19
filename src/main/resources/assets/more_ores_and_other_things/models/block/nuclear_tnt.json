@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "more_ores_and_other_things:blocks/tnt",
+    "up": "more_ores_and_other_things:blocks/tnt_top",
+    "north": "more_ores_and_other_things:blocks/tnt",
+    "east": "more_ores_and_other_things:blocks/tnt",
+    "south": "more_ores_and_other_things:blocks/tnt",
+    "west": "more_ores_and_other_things:blocks/tnt",
+    "particle": "more_ores_and_other_things:blocks/tnt"
+  }
+}

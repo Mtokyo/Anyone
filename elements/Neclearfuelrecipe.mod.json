@@ -1,0 +1,46 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NuclearDust"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NuclearDust"
+      },
+      {
+        "value": "CUSTOM:BlackOIngot"
+      },
+      {
+        "value": "CUSTOM:NuclearDust"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:NuclearDust"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:Neclearfuel"
+    },
+    "name": "neclearfuelrecipe",
+    "namespace": "mod"
+  }
+}

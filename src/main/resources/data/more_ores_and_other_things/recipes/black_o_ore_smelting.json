@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "experience": 0.7,
+  "cookingtime": 200,
+  "ingredient": {
+    "item": "more_ores_and_other_things:black_o_ore"
+  },
+  "result": "more_ores_and_other_things:black_o_ingot"
+}

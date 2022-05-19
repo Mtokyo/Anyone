@@ -1,0 +1,20 @@
+{
+  "_fv": 28,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Smelting",
+    "xpReward": 5.0,
+    "cookingTime": 60,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "smeltingInputStack": {
+      "value": "CUSTOM:Black0"
+    },
+    "smeltingReturnStack": {
+      "value": "CUSTOM:BlackOIngot"
+    },
+    "name": "blackoorecipe",
+    "namespace": "mod"
+  }
+}

@@ -1,0 +1,518 @@
+{
+  "mod_elements": [
+    {
+      "name": "PowerIngot",
+      "type": "item",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_ingot"
+    },
+    {
+      "name": "PowerOre",
+      "type": "block",
+      "sortid": 2,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_ore"
+    },
+    {
+      "name": "PowerPickaxe",
+      "type": "tool",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_pickaxe"
+    },
+    {
+      "name": "PowerSword",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_sword"
+    },
+    {
+      "name": "PowerShovel",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_shovel"
+    },
+    {
+      "name": "PowerPickaxeRecipe",
+      "type": "recipe",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_pickaxe_recipe"
+    },
+    {
+      "name": "PowerAxeRecipe",
+      "type": "recipe",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_axe_recipe"
+    },
+    {
+      "name": "PowerSwordRecipe",
+      "type": "recipe",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_sword_recipe"
+    },
+    {
+      "name": "PowerShovelRecipe",
+      "type": "recipe",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_shovel_recipe"
+    },
+    {
+      "name": "PowerAxe",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "power_axe"
+    },
+    {
+      "name": "NuclearDust",
+      "type": "item",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_dust",
+      "path": "~/nuclear"
+    },
+    {
+      "name": "NuclearOre",
+      "type": "block",
+      "sortid": 38,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_ore",
+      "path": "~/nuclear"
+    },
+    {
+      "name": "NuclearTNTOnBlockRightClicked",
+      "type": "procedure",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_tnt_on_block_right_clicked",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/nuclear"
+    },
+    {
+      "name": "NuclearTNT",
+      "type": "block",
+      "sortid": 39,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear_tnt",
+      "path": "~/nuclear"
+    },
+    {
+      "name": "TNT",
+      "type": "recipe",
+      "sortid": 40,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tnt",
+      "path": "~/nuclear"
+    },
+    {
+      "name": "Ph",
+      "type": "item",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ph"
+    },
+    {
+      "name": "PhIngot",
+      "type": "recipe",
+      "sortid": 41,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ph_ingot"
+    },
+    {
+      "name": "Pomp1",
+      "type": "procedure",
+      "sortid": 42,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pomp_1",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/nuclear"
+    },
+    {
+      "name": "Neclearfuel",
+      "type": "item",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neclearfuel",
+      "path": "~/nuclear"
+    },
+    {
+      "name": "Neclearfuelrecipe",
+      "type": "recipe",
+      "sortid": 44,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "neclearfuelrecipe",
+      "path": "~/nuclear"
+    },
+    {
+      "name": "Nuclear",
+      "type": "fuel",
+      "sortid": 43,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuclear",
+      "path": "~/nuclear"
+    },
+    {
+      "name": "BlackOIngot",
+      "type": "item",
+      "sortid": 45,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_o_ingot",
+      "path": "~/ores"
+    },
+    {
+      "name": "BlackOOre",
+      "type": "block",
+      "sortid": 46,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_o_ore",
+      "path": "~/ores"
+    },
+    {
+      "name": "BlackOOreSmelting",
+      "type": "recipe",
+      "sortid": 50,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_o_ore_smelting",
+      "path": "~/ores"
+    },
+    {
+      "name": "Blacko",
+      "type": "tool",
+      "sortid": 51,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blacko_pickaxe",
+      "path": "~/ores"
+    },
+    {
+      "name": "BLO",
+      "type": "potion",
+      "sortid": 52,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blo",
+      "path": "~/ores"
+    },
+    {
+      "name": "Blorecipe",
+      "type": "recipe",
+      "sortid": 53,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blorecipe",
+      "path": "~/ores"
+    },
+    {
+      "name": "Black0Axe",
+      "type": "tool",
+      "sortid": 55,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_0_axe",
+      "path": "~/ores"
+    },
+    {
+      "name": "Black0recipe",
+      "type": "recipe",
+      "sortid": 56,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_0recipe",
+      "path": "~/ores"
+    },
+    {
+      "name": "Blackorecipe",
+      "type": "recipe",
+      "sortid": 57,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackorecipe",
+      "path": "~/ores"
+    },
+    {
+      "name": "Black0",
+      "type": "item",
+      "sortid": 58,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackoore",
+      "path": "~/ores"
+    },
+    {
+      "name": "Blackoorecipe",
+      "type": "recipe",
+      "sortid": 59,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blackoorecipe",
+      "path": "~/ores"
+    },
+    {
+      "name": "IronhammerBlockDestroyedWithTool",
+      "type": "procedure",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironhammer_block_destroyed_with_tool",
+      "metadata": {
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/hammers"
+    },
+    {
+      "name": "Ironhammer",
+      "type": "tool",
+      "sortid": 60,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironhammer",
+      "path": "~/hammers"
+    },
+    {
+      "name": "Goldhammer",
+      "type": "tool",
+      "sortid": 61,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldhammer",
+      "path": "~/hammers"
+    },
+    {
+      "name": "Diamondhammer",
+      "type": "tool",
+      "sortid": 62,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondhammer",
+      "path": "~/hammers"
+    },
+    {
+      "name": "Netheritehammer",
+      "type": "tool",
+      "sortid": 63,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritehammer",
+      "path": "~/hammers"
+    },
+    {
+      "name": "Obsidianhammer",
+      "type": "tool",
+      "sortid": 64,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianhammer",
+      "path": "~/hammers"
+    },
+    {
+      "name": "Ironhm",
+      "type": "recipe",
+      "sortid": 65,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ironhm",
+      "path": "~/hammers"
+    },
+    {
+      "name": "Goldhm",
+      "type": "recipe",
+      "sortid": 66,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "goldhm",
+      "path": "~/hammers"
+    },
+    {
+      "name": "Diamondhm",
+      "type": "recipe",
+      "sortid": 67,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamondhm",
+      "path": "~/hammers"
+    },
+    {
+      "name": "Netheritehm",
+      "type": "recipe",
+      "sortid": 68,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netheritehm",
+      "path": "~/hammers"
+    },
+    {
+      "name": "Obsidianhm",
+      "type": "recipe",
+      "sortid": 69,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "obsidianhm",
+      "path": "~/hammers"
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.more_ores_and_other_things.black_o_ingot": "BlackO",
+      "item.more_ores_and_other_things.blackoore": "Black 0",
+      "item.more_ores_and_other_things.goldhammer": "Gold hammer",
+      "item.minecraft.lingering_potion.effect.blo": "Lingering Potion of BLO",
+      "block.more_ores_and_other_things.nuclear_tnt": "Nuclear TNT",
+      "block.more_ores_and_other_things.power_ore": "Power Ore",
+      "block.more_ores_and_other_things.black_o_ore": "BlackO Ore",
+      "item.more_ores_and_other_things.power_pickaxe": "Power Pickaxe",
+      "item.minecraft.potion.effect.blo": "Potion of BLO",
+      "item.more_ores_and_other_things.ironhammer": "Iron hammer",
+      "item.more_ores_and_other_things.obsidianhammer": "obsidian hammer",
+      "item.minecraft.tipped_arrow.effect.blo": "Arrow of BLO",
+      "item.more_ores_and_other_things.netheritehammer": "netherite hammer",
+      "item.more_ores_and_other_things.power_sword": "Power Sword",
+      "item.more_ores_and_other_things.power_axe": "Power Axe",
+      "item.more_ores_and_other_things.power_ingot": "Power",
+      "item.more_ores_and_other_things.nuclear_dust": "Nuclear",
+      "item.more_ores_and_other_things.diamondhammer": "diamond hammer",
+      "item.more_ores_and_other_things.ph": "Ph",
+      "item.more_ores_and_other_things.power_shovel": "Power Shovel",
+      "block.more_ores_and_other_things.nuclear_ore": "Nuclear Ore",
+      "item.more_ores_and_other_things.blacko_pickaxe": "Blacko",
+      "item.more_ores_and_other_things.neclearfuel": "Neclearfuel",
+      "item.more_ores_and_other_things.black_0_axe": "Black0 Axe",
+      "item.minecraft.splash_potion.effect.blo": "Splash Potion of BLO"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": [
+      {
+        "name": "nuclear",
+        "children": []
+      },
+      {
+        "name": "ores",
+        "children": []
+      },
+      {
+        "name": "hammers",
+        "children": []
+      }
+    ]
+  },
+  "workspaceSettings": {
+    "modid": "more_ores_and_other_things",
+    "modName": "More ores and other things",
+    "version": "1.0.0",
+    "author": "Ibrahim, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.moreoresandotherthings",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202200120510
+}

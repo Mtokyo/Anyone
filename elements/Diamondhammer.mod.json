@@ -1,0 +1,36 @@
+{
+  "_fv": 28,
+  "_type": "tool",
+  "definition": {
+    "renderType": 0,
+    "texture": "diamond_hammer",
+    "customModelName": "Normal",
+    "name": "diamond hammer",
+    "specialInfo": [
+      "Break blocks in a 3×3"
+    ],
+    "creativeTab": {
+      "value": "TOOLS"
+    },
+    "toolType": "Pickaxe",
+    "harvestLevel": 60,
+    "efficiency": 60.0,
+    "attackSpeed": 3.0,
+    "enchantability": 60,
+    "damageVsEntity": 3.0,
+    "usageCount": 1200,
+    "blocksAffected": [],
+    "hasGlow": false,
+    "repairItems": [
+      {
+        "value": "Items.DIAMOND"
+      }
+    ],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "IronhammerBlockDestroyedWithTool"
+    }
+  }
+}

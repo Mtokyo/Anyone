@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "more_ores_and_other_things:black_o_ingot"
+    },
+    "1": {
+      "item": "more_ores_and_other_things:nuclear_dust"
+    },
+    "2": {
+      "item": "more_ores_and_other_things:black_o_ingot"
+    },
+    "3": {
+      "item": "more_ores_and_other_things:nuclear_dust"
+    },
+    "4": {
+      "item": "minecraft:tnt"
+    },
+    "5": {
+      "item": "more_ores_and_other_things:nuclear_dust"
+    },
+    "6": {
+      "item": "more_ores_and_other_things:black_o_ingot"
+    },
+    "7": {
+      "item": "more_ores_and_other_things:nuclear_dust"
+    },
+    "8": {
+      "item": "more_ores_and_other_things:black_o_ingot"
+    }
+  },
+  "result": {
+    "item": "more_ores_and_other_things:nuclear_tnt",
+    "count": 1
+  }
+}
